@@ -1,0 +1,40 @@
+/* font-family: "Exo-Medium"; */
+@font-face {
+    font-family: 'Exo Medium';
+    src: url("../fonts/Exo-Medium/Exo-Medium.woff") format("woff"),
+    url("../fonts/Exo-Medium/Exo-Medium.ttf") format("truetype"),
+    url("../fonts/Exo-Medium/Exo-Medium.eot");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Exo-Regular"; */
+@font-face {
+    font-family: 'Exo Regular';
+    src: url("../fonts/Exo-Regular/Exo-Regular.woff") format("woff"),
+    url("../fonts/Exo-Regular/Exo-Regular.ttf") format("truetype"),
+    url("../fonts/Exo-Regular/Exo-Regular.eot");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Exo-Thin"; */
+@font-face {
+    font-family: 'Exo Thin';
+    src: url("../fonts/Exo-Thin/Exo-Thin.woff") format("woff"),
+    url("../fonts/Exo-Thin/Exo-Thin.ttf") format("truetype"),
+    url("../fonts/Exo-Thin/Exo-Thin.eot");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Lato-Regular"; */
+@font-face {
+    font-family: 'Lato Regular';
+    src: url("../fonts/Lato-Regular/Lato-Regular.woff") format("woff"),
+    url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype"),
+    url("../fonts/Lato-Regular/Lato-Regular.eot");
+    font-style: normal;
+    font-weight: normal;
+}
+

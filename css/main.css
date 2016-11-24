@@ -1,0 +1,1278 @@
+html,
+body {
+  height: 100%;
+  background: #fff;
+}
+.heading {
+  padding: 36px 0;
+  text-align: center;
+}
+.heading span {
+  font: 17px/26px "Exo Medium", sans-serif;
+  letter-spacing: 2.5px;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+.heading h2 {
+  font: 40px/51px "Exo Medium", sans-serif;
+  color: #282828;
+  letter-spacing: 1.5px;
+}
+.heading h2 b {
+  color: #ff6d6d;
+}
+#banner {
+  position: relative;
+  background: url("../images/banner.jpg") no-repeat center center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 812px;
+}
+#design {
+  padding: 150px 0 80px;
+  position: relative;
+  background: url("../images/banner_design.jpg") no-repeat center center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 724px;
+}
+#feautres {
+  padding: 96px 0;
+  position: relative;
+  background: url("../images/banner_contant.jpg") no-repeat center center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 675px;
+}
+#description {
+  padding: 94px 0 50px;
+  position: relative;
+  background: url("../images/description_banner.jpg") no-repeat center center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 550px;
+}
+#clients {
+  position: relative;
+  background: url("../images/banner_clients.jpg") no-repeat center center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 648px;
+  padding: 108px 0 60px;
+}
+#browser {
+  padding: 66px 0 0;
+  overflow: hidden;
+}
+#try_now {
+  background-color: #323969;
+  padding: 56px 0 74px;
+}
+#footer {
+  padding: 80px 0;
+  position: relative;
+  background: url("../images/banner_footer.jpg") no-repeat center center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 330px;
+}
+/* banner start*/
+.cd-primary-nav li {
+  margin: 15px 0;
+}
+.cd-primary-nav li a {
+  font: 25px "Exo Medium", sans-serif;
+  color: #282828;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header_text {
+  display: block;
+  text-align: center;
+  padding-top: 144px;
+}
+.header_text h1 {
+  font: 60px/75px "Exo Thin", sans-serif;
+  color: #282828;
+  letter-spacing: 2px;
+  padding: 30px 200px;
+}
+.header_text .btn {
+  display: block;
+  font: 16px "Exo Regular", sans-serif;
+  color: #fff;
+  margin: 10px auto 39px;
+  background: #8084a2;
+  border: none;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+.header_text .btn i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.header_text a {
+  display: block;
+  font: 15px "Exo Regular", sans-serif;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 0px auto;
+  text-transform: uppercase;
+  background: #ff6d6d;
+  width: 190px;
+  padding: 15px;
+  border: 0;
+  border-radius: 4px;
+}
+.header_text small {
+  display: block;
+  font: 14px/30px "Exo Regular", sans-serif;
+  color: #8a8a8a;
+  margin: 10px 0;
+}
+/* banner end*/
+/* design start*/
+.design_heading {
+  text-align: left;
+}
+.design_content p {
+  font: 15px/26px "Exo Medium", sans-serif;
+  color: #8a8a8a;
+  padding: 3px 0 22px;
+  letter-spacing: 1.07px;
+}
+/*  design end*/
+/*  feautres start*/
+.feautres_main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 44px 0;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  max-width: 1170px;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+.feautres_main .dlock_ftr {
+  width: 355px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.feautres_main .dlock_ftr .ftr_text h3 {
+  font: 22px "Exo Medium", sans-serif;
+  color: #282828;
+  letter-spacing: 0.8px;
+  padding: 22px 0 5px;
+}
+.feautres_main .dlock_ftr .ftr_text p {
+  font: 16px/26px "Exo Medium", sans-serif;
+  color: #8a8a8a;
+  letter-spacing: 0.7px;
+  padding: 3px 0;
+}
+/* feautres end*/
+/* description start*/
+.description_img {
+  position: relative;
+  width: 630px;
+  left: -95px;
+}
+.description_img img {
+  width: 100%;
+}
+.description_heading {
+  text-align: left;
+  padding: 42px 0 39px;
+}
+.description_content p {
+  font: 16px/25px "Exo Medium", sans-serif;
+  color: #8a8a8a;
+  letter-spacing: 0.7px;
+  padding: 5px 0;
+}
+/* description end */
+/* clients start */
+.clients_main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.clients_main .block_cln {
+  width: 340px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0 5px;
+}
+.clients_main .block_cln .cln_image {
+  background: #4e4e5e;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #1d1e24;
+}
+.clients_main .block_cln .cln_image img {
+  display: none;
+}
+.clients_main .block_cln .cln_text {
+  margin: 19px 0;
+}
+.clients_main .block_cln .cln_text h3 {
+  font: 23px/32px "Exo Medium", sans-serif;
+  color: #fff;
+  letter-spacing: 0.6px;
+}
+.clients_main .block_cln .cln_text span {
+  font: 15px "Exo Medium", sans-serif;
+  color: #ff6d6d;
+  letter-spacing: 0.5px;
+}
+.clients_main .block_cln .cln_text p {
+  font: 15px/26px "Exo Regular", sans-serif;
+  color: #8a8a8a;
+  font-style: italic;
+  letter-spacing: 1.1px;
+  padding: 28px 0;
+}
+.parthner_main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 18px auto;
+}
+.parthner_main a {
+  display: inline-block;
+}
+/* clients end */
+/* browser start*/
+.browser_contant {
+  width: 675px;
+  margin: 0 auto;
+}
+.browser_contant p {
+  font: 15px/26px "Exo Medium", sans-serif;
+  color: #8a8a8a;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.browser_img {
+  width: 820px;
+  margin: 87px auto 0;
+  line-height: 0;
+}
+.browser_img img {
+  width: 100%;
+}
+/* browser end*/
+/* try_now start*/
+#try_now .heading h2 {
+  color: #fff;
+}
+.form_main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 52px 0 30px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.form_main input {
+  border: 1px solid #999cb4;
+  text-transform: uppercase;
+  font: 16px "Exo Regular", sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  padding: 13px 25px;
+  width: 263px;
+  margin: 7px 0;
+}
+.form_main input:focus {
+  border: 1px solid #ff6d6d;
+  outline: none;
+}
+.form_main button {
+  width: 260px;
+  background: #ff6d6d;
+  font: 16px "Exo Regular", sans-serif;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  border: none;
+  margin: 6px 0;
+  position: relative;
+}
+.form_main button:focus {
+  outline: none;
+}
+.form_main button:after {
+  content: "30 days free trial for all.";
+  font: 16px "Exo Regular", sans-serif;
+  letter-spacing: 0.4px;
+  position: absolute;
+  top: -55px;
+  left: 0;
+  right: 0;
+  text-transform: none;
+}
+.form_main button:before {
+  content: "";
+  background: url(../images/arrow.png);
+  width: 17px;
+  height: 36px;
+  position: absolute;
+  top: -54px;
+  left: 3px;
+  right: 0;
+}
+.sign_up {
+  text-align: center;
+  margin: 11px 0;
+}
+.sign_up p {
+  font: 16px "Exo Regular", sans-serif;
+  color: #b8b9c3;
+  letter-spacing: 0.7px;
+}
+.sign_up p a {
+  text-decoration: underline;
+  color: #b8b9c3;
+}
+/* try_now end*/
+/* footer start*/
+.footer_main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  padding: 10px 0;
+}
+.footer_main .block_logo {
+  width: 255px;
+  margin: 0 15px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.footer_main .block_logo span {
+  font: 26px/30px "Lato Regular", sans-serif;
+  letter-spacing: 2px;
+  color: #282828;
+  position: relative;
+  z-index: 2;
+}
+.footer_main .block_logo span b {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.footer_main .block_logo span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  top: -8px;
+  right: -11px;
+  border-top: 27px solid transparent;
+  border-left: 43px solid #ff6d6d;
+  border-bottom: 27px solid transparent;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+.footer_main .block_logo p {
+  font: 15px/26px "Exo Medium", sans-serif;
+  color: #8a8a8a;
+  padding: 16px 0;
+  letter-spacing: 0.1px;
+}
+.footer_main .block_ftr {
+  width: 150px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 0 25px;
+}
+.footer_main .block_ftr span {
+  font: 22px "Exo Medium", sans-serif;
+  color: #282828;
+  letter-spacing: 0.9px;
+}
+.footer_main .block_ftr ul {
+  padding: 10px 0;
+}
+.footer_main .block_ftr ul li {
+  font: 15px/19px "Exo Medium", sans-serif;
+  margin: 10px 0;
+  letter-spacing: 0.2px;
+}
+.footer_main .block_ftr ul li a {
+  color: #8a8a8a;
+}
+.footer_main .block_form {
+  width: 267px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 0 15px;
+}
+.footer_main .block_form span {
+  font: 22px "Exo Medium", sans-serif;
+  color: #282828;
+  letter-spacing: 1px;
+}
+.footer_main .block_form .socials {
+  display: block;
+  text-align: center;
+}
+.footer_main .block_form .socials li {
+  display: inline-block;
+  font: 25px "Exo Medium", sans-serif;
+  margin: 0 10px;
+}
+.footer_main .block_form .socials li a {
+  color: #cbcbcb;
+}
+.footer_main .block_form .input-group {
+  margin: 23px 0 15px;
+}
+.footer_main .block_form .input-group .form-control {
+  background: #f6f6f6;
+  font: 16px "Exo Regular", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 28px;
+  height: 48px;
+  width: 215px;
+}
+.footer_main .block_form .input-group input:focus {
+  outline: 1px solid #ff8788;
+  border-color: transparent;
+  box-shadow: none;
+}
+.footer_main .block_form .input-group .btn {
+  background: #ff6d6d;
+  padding: 13px 18px;
+  border-radius: 0 4px 4px 0;
+}
+.footer_main .block_form .input-group .btn i {
+  color: #fff;
+}
+.copyright {
+  text-align: center;
+  display: block;
+}
+.copyright a {
+  font: 13px 'Open Sans', sans-serif;
+  display: inline-block;
+  color: #9599a0;
+  letter-spacing: 3px;
+  transition: color 0.5s linear;
+}
+.copyright a:hover {
+  color: #19bd9a;
+}
+/* footer end*/
+/*  Higher than 980 (desktop devices)*/
+/* ====================================================================== */
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+  .header_text h1 {
+    padding: 30px 10px;
+  }
+  .description_img {
+    width: 345px;
+    left: 0;
+  }
+  .browser_img {
+    width: 600px;
+  }
+  .form_main button:after {
+    display: none;
+  }
+  .form_main button:before {
+    display: none;
+  }
+  .footer_main {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
+/*  Tablet Portrait (devices and browsers)*/
+/* ====================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  #design {
+    padding: 50px 0 30px;
+    min-height: 650px;
+  }
+  #feautres {
+    padding: 50px 0;
+  }
+  #description {
+    padding: 50px 0;
+    min-height: 500px;
+  }
+  #clients {
+    padding: 50px 0;
+  }
+  #browser {
+    padding: 50px 0 0;
+  }
+  #try_now {
+    padding: 50px 0;
+  }
+  #footer {
+    padding: 50px 0;
+  }
+  .heading {
+    padding: 10px 0;
+  }
+  .header_text h1 {
+    padding: 30px 10px;
+  }
+  .description_img {
+    width: 320px;
+    left: 0;
+  }
+  .browser_img {
+    width: 600px;
+  }
+  .form_main button:after {
+    display: none;
+  }
+  .form_main button:before {
+    display: none;
+  }
+  .footer_main {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
+/*  All Mobile Sizes (devices and browser)*/
+/* ====================================================================== */
+@media only screen and (max-width: 767px) {
+  #design {
+    padding: 50px 0;
+    min-height: 570px;
+    background: transparent;
+    text-align: center;
+  }
+  #feautres {
+    padding: 50px 0;
+    background: #f2f2f2;
+  }
+  #description {
+    padding: 50px 0;
+    min-height: 500px;
+  }
+  #clients {
+    padding: 50px 0;
+  }
+  #browser {
+    padding: 50px 0 0;
+  }
+  #try_now {
+    padding: 50px 0;
+  }
+  #footer {
+    padding: 50px 0;
+    background: #f2f2f2;
+  }
+  .heading {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .heading span {
+    font: 15px/26px "Exo Medium", sans-serif;
+    letter-spacing: 2.5px;
+    color: #ff6d6d;
+    text-transform: uppercase;
+  }
+  .heading h2 {
+    font: 35px/51px "Exo Medium", sans-serif;
+    color: #282828;
+    letter-spacing: 1.5px;
+  }
+  .heading h2 b {
+    color: #ff6d6d;
+  }
+  .header_text h1 {
+    padding: 30px 10px;
+  }
+  .description_img {
+    width: 320px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .description_content {
+    text-align: center;
+  }
+  .feautres_main .dlock_ftr {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .browser_img {
+    width: 90%;
+  }
+  .browser_contant {
+    width: 100%;
+  }
+  .parthner_main a {
+    margin: 10px 24px;
+  }
+  .form_main input {
+    width: 95%;
+  }
+  .form_main button {
+    width: 95%;
+    padding: 10px 0;
+  }
+  .form_main button:after {
+    display: none;
+  }
+  .form_main button:before {
+    display: none;
+  }
+  .footer_main {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .footer_main .block_logo {
+    margin: 10px 15px;
+  }
+  .footer_main .block_ftr {
+    margin: 10px 25px;
+  }
+  .footer_main .block_form {
+    margin: 10px 15px;
+  }
+  .feautres_main .dlock_ftr {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+/*  Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+/* ====================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #design {
+    padding: 50px 0;
+    min-height: 570px;
+    background: transparent;
+    text-align: center;
+  }
+  #feautres {
+    padding: 50px 0;
+    background: #f2f2f2;
+  }
+  #description {
+    padding: 50px 0;
+    min-height: 500px;
+  }
+  #clients {
+    padding: 50px 0;
+  }
+  #browser {
+    padding: 50px 0 0;
+  }
+  #try_now {
+    padding: 50px 0;
+  }
+  #footer {
+    padding: 50px 0;
+    background: #f2f2f2;
+  }
+  .heading {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .heading span {
+    font: 15px/26px "Exo Medium", sans-serif;
+    letter-spacing: 2.5px;
+    color: #ff6d6d;
+    text-transform: uppercase;
+  }
+  .heading h2 {
+    font: 35px/51px "Exo Medium", sans-serif;
+    color: #282828;
+    letter-spacing: 1.5px;
+  }
+  .heading h2 b {
+    color: #ff6d6d;
+  }
+  .header_text h1 {
+    padding: 30px 10px;
+  }
+  .description_img {
+    width: 320px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .description_content {
+    text-align: center;
+  }
+  .feautres_main .dlock_ftr {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .browser_img {
+    width: 90%;
+  }
+  .browser_contant {
+    width: 100%;
+  }
+  .parthner_main a {
+    margin: 10px 24px;
+  }
+  .form_main input {
+    width: 95%;
+  }
+  .form_main button {
+    width: 95%;
+    padding: 10px 0;
+  }
+  .form_main button:after {
+    display: none;
+  }
+  .form_main button:before {
+    display: none;
+  }
+  .footer_main {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .footer_main .block_logo {
+    margin: 10px 15px;
+  }
+  .footer_main .block_ftr {
+    margin: 10px 25px;
+  }
+  .footer_main .block_form {
+    margin: 10px 15px;
+  }
+  .feautres_main .dlock_ftr {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+/*  Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+/* =================================================================== */
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+  #banner {
+    min-height: 600px;
+  }
+  #design {
+    padding: 50px 0;
+    min-height: 550px;
+    background: transparent;
+    text-align: center;
+  }
+  #feautres {
+    padding: 50px 0;
+    background: #f2f2f2;
+  }
+  #description {
+    padding: 50px 0;
+    min-height: 500px;
+    background: #fff;
+  }
+  #clients {
+    padding: 50px 0;
+  }
+  #browser {
+    padding: 50px 0 0;
+  }
+  #try_now {
+    padding: 50px 0;
+  }
+  #footer {
+    padding: 15px 0;
+    background: #f2f2f2;
+  }
+  .heading {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .heading span {
+    font: 12px/26px "Exo Medium", sans-serif;
+    letter-spacing: 2.5px;
+    color: #ff6d6d;
+    text-transform: uppercase;
+  }
+  .heading h2 {
+    font: 25px/40px "Exo Medium", sans-serif;
+    color: #282828;
+    letter-spacing: 1.5px;
+  }
+  .heading h2 b {
+    color: #ff6d6d;
+  }
+  .header_text {
+    padding-top: 20px;
+  }
+  .header_text h1 {
+    font: 40px/50px "Exo Thin", sans-serif;
+    padding: 50px 0;
+  }
+  .header_text .btn {
+    font: 10px "Exo Regular", sans-serif, sans-serif;
+    margin: 35px auto 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .header_text a {
+    font: 15px "Exo Regular", sans-serif, sans-serif;
+    width: 150px;
+    padding: 10px;
+  }
+  .design_content p {
+    font: 12px/20px "Exo Medium", sans-serif;
+    padding: 5px 0 10px;
+  }
+  .description_img {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .description_content {
+    text-align: center;
+  }
+  .description_content p {
+    font: 12px/20px "Exo Medium", sans-serif;
+  }
+  .feautres_main {
+    margin: 30px 0;
+  }
+  .feautres_main .dlock_ftr {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  .feautres_main .dlock_ftr .ftr_text h3 {
+    font: 20px "Exo Medium", sans-serif;
+    padding: 22px 0 5px;
+  }
+  .feautres_main .dlock_ftr .ftr_text p {
+    font: 13px/20px "Exo Medium", sans-serif;
+    padding: 3px 0;
+  }
+  .clients_main .block_cln {
+    width: 100%;
+  }
+  .clients_main .block_cln .cln_text {
+    margin: 19px 0;
+  }
+  .clients_main .block_cln .cln_text h3 {
+    font: 20px/25px "Exo Medium", sans-serif;
+  }
+  .clients_main .block_cln .cln_text span {
+    font: 12px "Exo Medium", sans-serif;
+  }
+  .clients_main .block_cln .cln_text p {
+    font: 12px/20px "Exo Regular", sans-serif;
+    font-style: italic;
+    padding: 10px 0;
+  }
+  .browser_img {
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  .browser_contant {
+    width: 100%;
+  }
+  .browser_contant p {
+    font: 12px/20px "Exo Medium", sans-serif;
+  }
+  .parthner_main a {
+    margin: 10px 24px;
+  }
+  .form_main {
+    padding: 20px 0 20px;
+  }
+  .form_main input {
+    width: 95%;
+    font: 12px "Exo Regular", sans-serif;
+  }
+  .form_main button {
+    width: 95%;
+    padding: 10px 0;
+    font: 12px "Exo Regular", sans-serif;
+  }
+  .sign_up p {
+    font: 10px "Exo Regular", sans-serif;
+  }
+  .form_main button:after {
+    display: none;
+  }
+  .form_main button:before {
+    display: none;
+  }
+  .footer_main {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .footer_main .block_logo {
+    margin: 10px 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_main .block_logo span {
+    font: 23px/30px "Lato Regular", sans-serif;
+  }
+  .footer_main .block_logo span:after {
+    content: "";
+    top: -8px;
+    right: -11px;
+    border-top: 24px solid transparent;
+    border-left: 40px solid #ff6d6d;
+    border-bottom: 24px solid transparent;
+  }
+  .footer_main .block_logo p {
+    font: 12px/20px "Exo Medium", sans-serif;
+    padding: 10px 0;
+  }
+  .footer_main .block_ftr {
+    margin: 5px 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_main .block_ftr span {
+    font: 15px "Exo Medium", sans-serif;
+  }
+  .footer_main .block_ftr ul {
+    padding: 5px 0;
+  }
+  .footer_main .block_ftr ul li {
+    font: 12px/20px "Exo Medium", sans-serif;
+    margin: 5px 0;
+  }
+  .footer_main .block_form {
+    margin: 5px 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_main .block_form span {
+    font: 15px "Exo Medium", sans-serif;
+  }
+  .footer_main .block_form .socials li {
+    font: 20px "Exo Medium", sans-serif;
+    margin: 0 5px;
+  }
+  .footer_main .block_form .input-group {
+    margin: 15px 0;
+    display: block;
+  }
+  .footer_main .block_form .input-group .form-control {
+    font: 12px "Exo Regular", sans-serif;
+    padding: 10px 28px;
+    height: 40px;
+    width: 100%;
+    border-radius: 2px;
+  }
+  .footer_main .block_form .input-group .btn {
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 319px) {
+  #banner {
+    min-height: 600px;
+  }
+  #design {
+    padding: 30px 0;
+    min-height: 550px;
+    background: transparent;
+    text-align: center;
+  }
+  #feautres {
+    padding: 30px 0;
+    background: #f2f2f2;
+  }
+  #description {
+    padding: 30px 0;
+    min-height: 500px;
+    background: #fff;
+  }
+  #clients {
+    padding: 30px 0;
+  }
+  #browser {
+    padding: 30px 0 0;
+  }
+  #try_now {
+    padding: 30px 0;
+  }
+  #footer {
+    padding: 15px 0;
+    background: #f2f2f2;
+  }
+  .heading {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .heading span {
+    font: 12px/22px "Exo Medium", sans-serif;
+    letter-spacing: 2.5px;
+    color: #ff6d6d;
+    text-transform: uppercase;
+  }
+  .heading h2 {
+    font: 22px/30px "Exo Medium", sans-serif;
+    color: #282828;
+    letter-spacing: 1.5px;
+  }
+  .heading h2 b {
+    color: #ff6d6d;
+  }
+  .header_text {
+    padding-top: 20px;
+  }
+  .header_text h1 {
+    font: 30px/40px "Exo Thin", sans-serif;
+    padding: 50px 0;
+  }
+  .header_text .btn {
+    font: 10px "Exo Regular", sans-serif, sans-serif;
+    margin: 35px auto 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .header_text a {
+    font: 12px "Exo Regular", sans-serif, sans-serif;
+    width: 120px;
+    padding: 10px;
+  }
+  .header_text small {
+    font: 10px/25px "Exo Regular", sans-serif, sans-serif;
+  }
+  .design_content p {
+    font: 12px/20px "Exo Medium", sans-serif;
+    padding: 5px 0 10px;
+  }
+  .description_img {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .description_content {
+    text-align: center;
+  }
+  .description_content p {
+    font: 12px/20px "Exo Medium", sans-serif;
+  }
+  .feautres_main {
+    margin: 30px 0;
+  }
+  .feautres_main .dlock_ftr {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  .feautres_main .dlock_ftr .ftr_text h3 {
+    font: 17px "Exo Medium", sans-serif;
+    padding: 22px 0 5px;
+  }
+  .feautres_main .dlock_ftr .ftr_text p {
+    font: 12px/20px "Exo Medium", sans-serif;
+    padding: 3px 0;
+  }
+  .clients_main .block_cln {
+    width: 100%;
+  }
+  .clients_main .block_cln .cln_text {
+    margin: 19px 0;
+  }
+  .clients_main .block_cln .cln_text h3 {
+    font: 17px/20px "Exo Medium", sans-serif;
+  }
+  .clients_main .block_cln .cln_text span {
+    font: 12px "Exo Medium", sans-serif;
+  }
+  .clients_main .block_cln .cln_text p {
+    font: 12px/20px "Exo Regular", sans-serif;
+    font-style: italic;
+    padding: 10px 0;
+  }
+  .browser_img {
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  .browser_contant {
+    width: 100%;
+  }
+  .browser_contant p {
+    font: 12px/20px "Exo Medium", sans-serif;
+    padding: 0 5px;
+  }
+  .parthner_main a {
+    margin: 10px 24px;
+  }
+  .form_main {
+    padding: 20px 0 20px;
+  }
+  .form_main input {
+    width: 95%;
+    font: 12px "Exo Regular", sans-serif;
+  }
+  .form_main button {
+    width: 95%;
+    padding: 10px 0;
+    font: 12px "Exo Regular", sans-serif;
+  }
+  .sign_up p {
+    font: 10px "Exo Regular", sans-serif;
+    padding: 0 5px;
+  }
+  .form_main button:after {
+    display: none;
+  }
+  .form_main button:before {
+    display: none;
+  }
+  .footer_main {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .footer_main .block_logo {
+    margin: 10px 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_main .block_logo span {
+    font: 23px/30px "Lato Regular", sans-serif;
+  }
+  .footer_main .block_logo span:after {
+    content: "";
+    top: -8px;
+    right: -11px;
+    border-top: 24px solid transparent;
+    border-left: 40px solid #ff6d6d;
+    border-bottom: 24px solid transparent;
+  }
+  .footer_main .block_logo p {
+    font: 12px/20px "Exo Medium", sans-serif;
+    padding: 10px 0;
+  }
+  .footer_main .block_ftr {
+    margin: 5px 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_main .block_ftr span {
+    font: 15px "Exo Medium", sans-serif;
+  }
+  .footer_main .block_ftr ul {
+    padding: 5px 0;
+  }
+  .footer_main .block_ftr ul li {
+    font: 12px/20px "Exo Medium", sans-serif;
+    margin: 5px 0;
+  }
+  .footer_main .block_form {
+    margin: 5px 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_main .block_form span {
+    font: 15px "Exo Medium", sans-serif;
+  }
+  .footer_main .block_form .socials li {
+    font: 20px "Exo Medium", sans-serif;
+    margin: 0 5px;
+  }
+  .footer_main .block_form .input-group {
+    margin: 15px 0;
+    display: block;
+  }
+  .footer_main .block_form .input-group .form-control {
+    font: 12px "Exo Regular", sans-serif;
+    padding: 10px 28px;
+    height: 40px;
+    width: 100%;
+    border-radius: 2px;
+  }
+  .footer_main .block_form .input-group .btn {
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 5px;
+  }
+}

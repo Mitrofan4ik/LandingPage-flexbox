@@ -1,0 +1,150 @@
+/* Overlay style */
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.86);
+	z-index: 9999;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: url(../images/cross.png) no-repeat center center;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+/* Menu style */
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 7);
+	min-height: 54px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.overlay ul li a {
+	font: 25px "Exo Medium", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #ff6d6d;
+}
+
+.overlay-slidedown {
+	visibility: hidden;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
+	transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+}
+
+.overlay-slidedown.open {
+	visibility: visible;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+
+.trigger-icon {
+	position: absolute;
+	width: 30px;
+	height: 20px;
+	left: 20px;
+	top: 36%;
+}
+
+.trigger_holder {
+	position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 40px 0;
+    transition: padding 0.3s;
+}
+
+.fixed {
+	background-color: rgba(0, 0, 0, 0.14);
+	padding: 20px 0;
+}
+
+.fixed .trigger-icon {
+	top: 23%;
+}
+
+.trigger-icon .menu-icon {
+  	display: inline-block;
+  	position: absolute;
+  	left: 0;
+  	top: 50%;
+  	bottom: auto;
+  	right: auto;
+  	width: 30px;
+  	height: 2px;
+  	background-color: #282828;
+}
+
+.trigger-icon .menu-icon::before,
+.trigger-icon .menu-icon:after {
+  	content: '';
+  	width: 100%;
+  	height: 100%;
+ 	 position: absolute;
+  	background-color: #282828;
+  	right: 0;
+}
+.trigger-icon .menu-icon::before {
+  	top: -5px;
+}
+.trigger-icon .menu-icon::after {
+  	top: 5px;
+}
+
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+	.overlay ul li a {
+		font: 18px Exo Medium, sans-serif;
+	}
+}
+@media only screen and (max-width: 319px) {
+.overlay ul li a {
+		font: 18px Exo Medium, sans-serif;
+	}
+}
