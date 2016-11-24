@@ -538,7 +538,7 @@ body {
   transition: color 0.5s linear;
 }
 .copyright a:hover {
-  color: #19bd9a;
+  color: #ff6d6d;
 }
 /* footer end*/
 /*  Higher than 980 (desktop devices)*/
